@@ -1,0 +1,76 @@
+.container {
+    max-width: 960px;
+}
+
+
+/* Font */
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item,
+.nav-link {
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.nav-item,
+.nav-link:hover {
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+
+/* Carousel base class */
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 0.5rem;
+}
+
+.hyperl {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+.flex-equal>* {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
